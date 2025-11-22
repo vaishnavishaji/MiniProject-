@@ -1,59 +1,90 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## CAMPVOYAGE
+The Smart Campus Navigation System is an advanced application designed to help students, staff, and visitors easily find their way around a large educational campus. Using Augmented Reality for real-time path guidance, Virtual Reality for immersive campus exploration, and AI-based image and voice recognition, the system makes navigation simple and interactive. Users can scan buildings, search destinations, or follow AR arrows directly on their screen, while the backend manages updated campus data and 3D models. This project aims to provide a modern, intelligent, and user-friendly solution that transforms traditional campus navigation into a smart digital experience.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The Smart Campus Navigation System is a modern solution designed to help users easily navigate large and complex educational campuses. The project uses Augmented Reality to display real-time arrows and directions on the user’s screen, Virtual Reality to explore the campus in 3D, and AI technologies like image scanning and voice recognition to detect buildings, rooms, and user queries. By integrating 3D models, accurate pathfinding, and a full-stack backend for dynamic data updates, the system ensures that students, staff, and visitors can reach their destinations quickly and confidently. Overall, the project aims to create a smart, interactive, and user-friendly navigation experience that enhances campus accessibility.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+1. AR-Based Real-Time Navigation
+Displays live augmented reality arrows, markers, and directions on the user’s mobile screen to guide them accurately around the campus.
+
+2. VR Campus Exploration
+Allows users to virtually walk through 3D models of buildings, classrooms, and facilities for remote or pre-visit exploration.
+
+3. Image Scanning & Recognition
+Uses AI-based image detection and OCR to recognize building names, room numbers, and signboards from camera input.
+
+4. Voice Command Search
+Supports hands-free navigation where users can speak destinations like “Go to Library” or “Find Classroom 203.”
+
+5. Dynamic Route Correction
+If users take a wrong turn, the system immediately recalculates and updates the AR path to get them back on track.
+
+6. 3D Modeling of Campus Buildings
+Includes detailed 3D models of classrooms, labs, corridors, and important campus locations for immersive visualization.
+
+7. Full-Stack Backend with Admin Control
+The admin panel enables staff to update buildings, add new rooms, modify routes, and manage 3D model data in real time.
+
+9. Indoor & Outdoor Navigation Support
+Uses GPS outdoors and camera/AI-based tracking indoors for precise navigation across all campus environments.
+
+10. User-Friendly Interface
+Simple and intuitive design that makes it easy for new visitors, students, and parents to navigate the campus.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+## Functional Requirements
+AR-based real-time navigation,
+VR campus exploration,
+Image scanning and recognition,
+Voice command search,
+Dynamic route correction,
+Admin control for data updates.
+
+## Non-Functional Requirements
+High accuracy and smooth performance,
+User-friendly interface,
+Secure admin access,
+Scalability for future buildings,
+Hardware Requirements,
+AR-supported smartphone (camera, GPS, sensors),
+Laptop/PC for development.
+
+## Software Requirements
+Unity (ARCore/ARKit),
+Python (AI models),
+Backend (Flask/Node.js),
+Database (MongoDB/MySQL).
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="1536" height="1024" alt="Architecture Diagram (2)" src="https://github.com/user-attachments/assets/9d09b8b4-1a46-416b-ac92-a374f5c9d9b2" />
+<img width="1536" height="1024" alt="ARCHITECTURE DIAGRAM" src="https://github.com/user-attachments/assets/1ba8eede-c02e-4514-bed9-b403b3fde8fe" />
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Login Page
+<img width="1919" height="1032" alt="loginnnn" src="https://github.com/user-attachments/assets/85ca694c-294e-417d-acb9-e17a631cb623" />
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output2 - Home Page
+
+<img width="1919" height="1016" alt="home" src="https://github.com/user-attachments/assets/eb8843ba-b7f8-4578-ae41-c9b1ab553fe2" />
 
 Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
 
+#### Output3 - Profile Page
+<img width="1919" height="1020" alt="profile" src="https://github.com/user-attachments/assets/95e0d282-3a3c-4a32-9eef-d4ae487dafdd" />
+
+#### Output4 - Feedback Page
+<img width="1919" height="1029" alt="feedback" src="https://github.com/user-attachments/assets/31d8963e-1169-4dd7-817d-bd12e7e262d6" />
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The Smart Campus Navigation System successfully provides an interactive and intelligent guiding experience for users within the campus. The implemented AR module accurately overlays real-time directional arrows on the mobile screen, enabling users to follow the correct path visually. The VR component delivers a detailed 3D virtual walkthrough of classrooms, buildings, and facilities, helping new students and visitors explore the campus even before physically arriving. AI-based image scanning correctly identifies buildings and room numbers, while voice recognition allows effortless, hands-free searching of destinations. The backend efficiently manages campus data and updates, ensuring that routes and building information remain accurate. Overall, the system demonstrates strong performance with smooth navigation, accurate detection, and a user-friendly interface, proving its effectiveness as a smart navigation solution for modern campuses.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
-
-
+1. M. D. Rodriguez, J. T. Barron, “Deep Learning for Visual Place Recognition and Semantic Mapping,” IEEE Transactions on Pattern Analysis and Machine Intelligence (DL for mapping/recognition).
+2. D. Chatzopoulos, C. Bermejo, Z. Huang and P
